@@ -1,0 +1,34 @@
+name: my_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+carousel_slider: ^2.3.1
+
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: Satisfy-Regular
+      fonts:
+        - asset: font/Satisfy-Regular.ttf
+
+
+  assets:
+     - images/fas.jpg
+     - images/fall_1.jpg
+
+
